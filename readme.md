@@ -14,27 +14,27 @@ Java programming.
 
 ## Questions
 
-1. ### Prime Numbers
-
-   Understanding prime numbers is essential for cryptography and secure
-   communications.
-   Hint: Use loops and conditionals to check divisibility.
-
-2. ### Sum of Two Numbers
+1. ### Sum of Two Numbers
 
    Learning basic arithmetic is essential for data analysis and calculations.
    Hint: Use variables and arithmetic operators.
 
-3. ### Convert Temperature
+2. ### Convert Temperature
 
    Unit conversions are common in scientific computing and data
    analysis.
    Hint: Use the formula Celsius = (Fahrenheit - 32) \* 5/9.
 
-4. ### Odd or Even
+3. ### Odd or Even
 
    Conditionals are crucial for decision-making in algorithms.
    Hint: Use the modulo operator %.
+
+4. ### Prime Numbers
+
+   Understanding prime numbers is essential for cryptography and secure
+   communications.
+   Hint: Use loops and conditionals to check divisibility.
 
 5. ### Fibonacci Series
 
