@@ -54,5 +54,6 @@ public class matrixMul {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
