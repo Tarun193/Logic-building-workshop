@@ -22,5 +22,6 @@ class OddEven {
         }
 
         // Closing the input.
+        input.close();
     }
 }
