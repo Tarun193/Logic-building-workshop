@@ -62,7 +62,7 @@ public class Palindrome {
         }
     }
 
-    private static void basic(String str) {
+    public static void basic(String str) {
         // just reverse the string and check if the actual string and reversed string is
         // equal;
         String reversedStr = "";

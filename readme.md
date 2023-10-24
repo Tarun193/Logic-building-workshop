@@ -47,16 +47,22 @@ Java programming.
    Hint: Use a loop or recursion.
 
 7. ### Palindrome
+
    Text processing is essential in data mining and natural language
    processing.
    Hint: Convert the string to a character array and reverse it.
+
 8. ### Caesar Cipher
+
    Understanding basic encryption techniques is vital for secure data
    transmission.
    Hint: Use a loop to shift each character in the string by a fixed amount.
+
 9. ### Array Sum
+
    Array traversal is foundational in databases and numerical methods.
    Hint: Use a loop to iterate and sum.
+
 10. ### Matrix Multiplication
     Matrix operations are crucial in machine learning and scientific
     computing.
