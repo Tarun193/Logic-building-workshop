@@ -14,6 +14,7 @@ public class matrixMul {
         System.out.print("Enter the number of columns in the second matrix: ");
         int cols2 = sc.nextInt();
 
+        sc.close();
         // Check if the matrices can be multiplied
         if (cols1 != rows2) {
             System.out.println("The matrices cannot be multiplied.");
@@ -54,6 +55,6 @@ public class matrixMul {
             }
             System.out.println();
         }
-        sc.close();
+
     }
 }

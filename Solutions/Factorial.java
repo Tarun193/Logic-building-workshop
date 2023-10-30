@@ -13,8 +13,8 @@ public class Factorial {
         int factorial = 1;
 
         // Calculate the factorial using a loop
-        for (int i = 1; i <= n; i++) {
-            factorial *= i;
+        for (int i = n; i > 1; i--) {
+            factorial = factorial * i;
         }
 
         // Display the result
