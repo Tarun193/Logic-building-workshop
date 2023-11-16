@@ -14,10 +14,10 @@ public class matrixMul {
         System.out.print("Enter the number of columns in the second matrix: ");
         int cols2 = sc.nextInt();
 
-        sc.close();
         // Check if the matrices can be multiplied
         if (cols1 != rows2) {
             System.out.println("The matrices cannot be multiplied.");
+            sc.close();
             return;
         }
 
@@ -27,16 +27,19 @@ public class matrixMul {
         System.out.println("Enter the values for the first matrix:");
         for (int i = 0; i < rows1; i++) {
             for (int j = 0; j < cols1; j++) {
+                System.out.println("Enter value for first matrix's " + i + " " + j + ":");
                 matrix1[i][j] = sc.nextInt();
             }
         }
         System.out.println("Enter the values for the second matrix:");
         for (int i = 0; i < rows2; i++) {
             for (int j = 0; j < cols2; j++) {
+                System.out.println("Enter value for second matrix's " + i + " " + j + ":");
                 matrix2[i][j] = sc.nextInt();
             }
         }
 
+        sc.close();
         // Multiply the matrices and store the result in a new matrix
         int[][] result = new int[rows1][cols2];
         for (int i = 0; i < rows1; i++) {
