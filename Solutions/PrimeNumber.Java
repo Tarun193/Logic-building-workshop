@@ -24,9 +24,12 @@ public class PrimeNumber {
         // Initially we are considering the given number is prime.
         boolean isPrime = true;
 
-        // Then we will loop throught all the numbers between 2 and number itself (excluding).
+        // Then we will loop throught all the numbers between 2 and number itself
+        // (excluding).
         for (int i = 2; i < num; i++) {
-            // If we found out that the number is divisible by a number, that lies between the range 2 and itself (excluding). Then we we will mark the number as non prime.
+            // If we found out that the number is divisible by a number, that lies between
+            // the range 2 and itself (excluding). Then we we will mark the number as non
+            // prime.
             if (num % i == 0) {
                 isPrime = false;
                 break;
@@ -47,3 +50,14 @@ public class PrimeNumber {
 }
 
 // There is an effective way of doing it, we will discuss that here.
+
+/*
+ * Sol: The thing is you don't even have to go till n-1 to check;
+ * if the number is not divisible by any number between 2 to
+ * squreRoot(number(itself))
+ * then the number is prine
+ * 
+ * There exists a mathematical proof establishing that if a number is
+ * non-prime, then it must be divisible by an integer that is less than or
+ * equal to its square root.
+ */
