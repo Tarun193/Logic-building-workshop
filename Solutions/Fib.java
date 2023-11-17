@@ -24,15 +24,15 @@ public class Fib {
         System.out.print(second + " ");
 
         // Generate and print the next (n-2) numbers in the series.
-        for (int i = 0; i < n - 2; i++) {
-            // Store the current 'second' value in a temporary variable.
-            int temp = second;
+        for (int i = 2; i < n; i++) {
             // Calculate the next number by adding the previous two numbers.
-            second = first + second;
-            // Update the value of the 'first' variable for the next iteration.
-            first = temp;
+            int next = first + second;
+            // Updating first;
+            first = second;
+            // Update the value of the 'second' variable for the next iteration.
+            second = next;
             // Print the newly generated Fibonacci number.
-            System.out.print(second + " ");
+            System.out.print(next + " ");
         }
 
         // Close the input scanner.

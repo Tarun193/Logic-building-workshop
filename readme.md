@@ -36,15 +36,15 @@ Java programming.
    communications.
    Hint: Use loops and conditionals to check divisibility.
 
-5. ### Fibonacci Series
-
-   Understanding sequences is key in sorting and searching algorithms.
-   Hint: Start with 0 and 1, then use a loop.
-
-6. ### Factorial
+5. ### Factorial
 
    Grasping recursion is vital for data structures like trees.
    Hint: Use a loop or recursion.
+
+6. ### Fibonacci Series
+
+   Understanding sequences is key in sorting and searching algorithms.
+   Hint: Start with 0 and 1, then use a loop.
 
 7. ### Palindrome
 
